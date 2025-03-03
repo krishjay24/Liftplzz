@@ -538,6 +538,12 @@ def check_ride_status(ride_id):
     
     return jsonify(response),200
 
+# Test endpoint to say "Hi, Hello, Welcome"
+@app.route('/test')
+def test():
+    return jsonify({'message': 'Hi, Hello, Welcome'}), 200
+
+
 # Run the application
 if __name__ == "__main__":
     init_db()
