@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "LiftPlease",
+    "slug": "LiftPlease",
+    "version": "1.0.0",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0e9ce3a1-af3e-4926-9d87-4197111e99ad"
+      }
+    },
+    "android": {
+      "package": "com.krishnajayanth.LiftPlease"
+    }
+  }
+}
